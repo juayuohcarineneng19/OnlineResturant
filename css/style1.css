@@ -28,7 +28,7 @@ body{
 }
 .secondary-heading{
     font-size: 2.8rem;
-    line-height: 1.5rem;
+    line-height: 1.5;
     margin-bottom: 5.6rem;
 }
 .sub-heading{
@@ -203,6 +203,35 @@ body{
 .delivered-text span{
     color: #cf711f;
 }
+
+/* ********************************** */
+/* FEATURED IN SECTION */
+.heading-featured-in{
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    letter-spacing: 0.75px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 2.4rem;
+    color: #888;
+}
+.featured-section{
+    padding: 3.8rem 0 2.2rem 0;
+}
+.logos{
+    display: flex;
+    justify-content: space-around;
+}
+.logo{
+    height: 2.2rem;
+    filter: brightness(0);
+    opacity: 50%;
+}
+
+
+
+
+/* ****************************** */
 /* how it works */
 .how-section{
     padding: 5.6rem 0;
