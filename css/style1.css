@@ -524,3 +524,30 @@ strong{
     font-weight: bold;
     text-align: center;
 }
+
+/* ******************** */
+/* CTA section*/
+.section-cta{
+    padding: 5.6rem 0;
+}
+.cta{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    /* background-color: #e67e22; */
+    box-shadow: 0 1.4rem 2.8rem rgba(0, 0, 0, 0.20);
+    border-radius: 11px;
+    background-image: linear-gradient(to right bottom, 
+    rgba(235, 151, 78, 0.35),
+     rgba(230,125,34,0.35)
+     );
+    overflow: hidden;
+    /* temporary */
+     height: 30rem;
+
+}
+
+.cta-img-box{
+    background-image: url(../img/eating.jpg);
+    background-size: cover;
+    background-position: center;
+}
