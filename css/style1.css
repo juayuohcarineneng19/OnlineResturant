@@ -545,6 +545,18 @@ strong{
      height: 30rem;
 
 }
+.cta-text-box{
+    padding: 2rem 3.2rem 3.2rem 3.2rem;
+    color: #45260a;
+}
+.cta-text{
+font-size: 1.6rem;
+margin-bottom: 3rem;
+}
+.cta .secondary-heading{
+    color: #45260a;
+    margin-bottom: 1.5rem;
+}
 
 .cta-img-box{
     background-image: url(../img/eating.jpg);
