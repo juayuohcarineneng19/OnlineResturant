@@ -12,6 +12,12 @@ body{
     line-height: 1;
     color: #555;
 }
+*:focus{
+    outline: none;
+    /* outline: 4px dotted #e67e22; */
+    /* outline-offset: 8px; */
+    box-shadow: 0 0 0 0.6rem rgba(230,125,34,0.5);
+}
 
 /* ********************************************** */
 /* GENERAL REUSABLE COMPONENTS */
@@ -55,9 +61,10 @@ body{
     font-weight: 600;
     text-decoration: none;
     transition: all 0.3s;
-/* only neccessary for */
+/* only neccessary for .btn */
     border: none;
     cursor: pointer;
+    font-family: inherit;
 }
 .btn--full:link,
 .btn--full:visited{
@@ -120,6 +127,9 @@ body{
 }
 .grid-4-cols{
     grid-template-columns: repeat(4, 1fr);
+}
+.grid-5-cols{
+    grid-template-columns: repeat(5, 1fr);
 }
 strong{
     font-weight: 600;
@@ -547,7 +557,7 @@ strong{
      );
     overflow: hidden;
     /* temporary */
-     height: 30rem;
+     /* height: 30rem; */
 
 }
 .cta-text-box{
@@ -595,6 +605,20 @@ margin-bottom: 3rem;
 .cta-form input::placeholder{
     color: #aaaa;
 }
-.cta-form button{
-    
+.btn-form{
+    background-color: #45260a;
+    color: #fdf2e9;
+    align-self: end;
+    padding: 0.5rem;
+    border-radius: 0.4rem;
+}
+.btn-form:hover{
+    background-color: #fff;
+    color: #555;
+}
+.cta *:focus{
+    outline: none;
+    /* outline: 4px dotted #e67e22; */
+    /* outline-offset: 8px; */
+    box-shadow: 0 0 0 0.8rem rgba(253,242,233,0.5);
 }
