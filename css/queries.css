@@ -1,0 +1,19 @@
+
+/* **************************** */
+/* below 1344px(smaller desktops) */
+
+@media (max-width: 84em){
+    .hero{
+        max-width: 120rem;
+        background-color: red;
+    }
+    .primary-heading{
+        font-size: 2.6rem;
+    }
+    .hero-description{
+        font-size: 1.2rem;
+    }
+    .gallery{
+        grid-template-columns: repeat( 2, 1fr);
+    }
+}
