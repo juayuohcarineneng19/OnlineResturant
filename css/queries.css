@@ -13,7 +13,38 @@
     .hero-description{
         font-size: 1.2rem;
     }
-    .gallery{
+    .gallery-item{
         grid-template-columns: repeat( 2, 1fr);
+    }
+}
+
+/* **************************** */
+/* below 1200px(landscape tablets) */
+/* 9px/16px 56.6% */
+@media (max-width: 75em){
+    html{
+        /* font-size:56% ; */
+    }
+    .grid{
+        column-gap: 2.4rem;
+        row-gap: 5rem;
+    }
+    .secondary-heading{
+        font-size: 2rem;
+    }
+    .heading-tertiary{
+        font-size: 1.5rem;
+    }
+    .header{
+        padding: 0 3rem;
+    }
+    .hero{
+        gap: 3rem;
+    }
+    .main-nav-list{
+        gap: 2rem;
+    }
+    .testimonial-container{
+        padding: 4.3rem 2rem;
     }
 }
